@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+.NavbarContent{
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  font-family: 'Poppins', sans-serif;
+}
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15vh;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 2px 2px 3px rgb(66, 79, 79);
+}
+
+.SocialInfo a{
+font-size: 4vh;
+color: black;
+padding: 10px 20px;
+}
+
+.SocialInfo a:hover{
+  box-shadow: 0.5px 0.5px 2px gray;
+  text-shadow: 0.5px 0.5px 2px gray;
+  }
+
+.Navbar a{
+  text-decoration: none;
+}
+.Navbar h2{
+  font-size: 4vh;
+  color: black;
+}
+
+.Navbar h2:hover + span{
+  display: block;
+  background-color: red;
+  width: auto;
+  height: 2px;
+  transition: 0.6s ease-in-out;
+}
+
+
+.icon1, .icon2, .icon3, .icon4{
+  animation: float 5s ease-in-out infinite;
+}
+
+.icon2{
+  animation-delay: 1s;
+}
+.icon3{
+  animation-delay: 2s;
+}
+.icon4{
+  animation-delay: 3s;
+}
+
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}

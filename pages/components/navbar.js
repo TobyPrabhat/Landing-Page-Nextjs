@@ -13,7 +13,9 @@ export default function navbar(){
   return(
     <div className={styles.NavbarContent}> 
       <nav className={styles.Navbar}>
-        <Image src={Logo} alt="alt" width="85" height="85"/>
+        <div className={styles.logo}>
+        <Image src={Logo} alt="alt"/>
+        </div>
       <div className={styles.SocialInfo}>
       <a href="#"><FontAwesomeIcon icon={faIndianRupeeSign} className = {styles.icon1}/></a>
       <a href="#">

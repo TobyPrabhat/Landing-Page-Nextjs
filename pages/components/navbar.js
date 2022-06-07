@@ -16,6 +16,8 @@ export default function navbar(){
         <div className={styles.logo}>
         <Image src={Logo} alt="alt"/>
         </div>
+      <a href="./Home"><h2>Home</h2><span></span></a>
+      <a href="./about"><h2>About</h2><span></span></a>
       <div className={styles.SocialInfo}>
       <a href="#"><FontAwesomeIcon icon={faIndianRupeeSign} className = {styles.icon1}/></a>
       <a href="#">
@@ -28,8 +30,6 @@ export default function navbar(){
       <FontAwesomeIcon icon = {faBagShopping} className = {styles.icon4} />
       </a>
       </div>
-      <a href="./Home"><h2>Home</h2><span></span></a>
-      <a href="./about"><h2>About</h2><span></span></a>
       </nav>
     </div>
   )

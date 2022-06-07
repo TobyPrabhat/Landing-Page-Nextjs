@@ -10,6 +10,7 @@
 .logo{
   width: 7%;
   height: 10vh;
+  /* margin-top: 1vh ; */
 }
 .Navbar{
   display: flex;
@@ -22,8 +23,8 @@
 
 .SocialInfo a{
 font-size: 4vh;
-color: black;
 padding: 10px 20px;
+color: black;
 }
 
 .SocialInfo a:hover{
@@ -72,4 +73,28 @@ padding: 10px 20px;
   100%{
     transform: translateY(0);
   }
+}
+
+
+@media only screen and (max-width:920px){
+  .logo{
+    min-height: 10vh;
+    /* margin-top: 1vh ; */
+    min-width: 10%;
+  }
+}
+
+@media only screen and (max-width:550px){
+  .icon1, .icon2, .icon3, .icon4{
+    animation: none ;
+    font-size: 3vw;
+  }
+  .SocialInfo {
+    position: absolute;
+    top: 10vh;
+    }
+    .logo{
+      min-height: 10vh;
+      min-width: 10vh;
+    }
 }

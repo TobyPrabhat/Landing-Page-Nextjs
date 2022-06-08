@@ -23,7 +23,7 @@ export default function Blog(){
             <div key = {elem.id}>
             <h3>{elem.title}</h3>
             <img src={elem.image} alt="err" />  
-            <a href = "/Result/:id" className={styles.Details1} key={elem.id}>Details</a>
+            <a href = {`../components/${elem.id}`} className={styles.Details1} >Details</a>
             </div>
              )
            })

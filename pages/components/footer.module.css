@@ -1,0 +1,43 @@
+.footerContainer{
+  background-color: black;
+  color: antiquewhite;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.upperPart{
+  padding-top: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3vh;
+}
+
+.downPart{
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3vh;
+}
+
+.fonts{
+  padding: 1vh;
+}
+
+.icon1, .icon2, .icon3, .icon4{
+  color: gray;
+  margin: 2vh;
+}
+
+@media only screen and (max-width: 530px){
+  .footerContainer{
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .footerContainer{
+    font-size: 50%;
+  }
+}

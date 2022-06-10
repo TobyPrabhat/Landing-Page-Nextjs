@@ -1,0 +1,10 @@
+{
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/[detailsid]": "pages/components/[detailsid].html",
+  "/components/blog": "pages/components/blog.html",
+  "/components/footer": "pages/components/footer.html",
+  "/components/navbar": "pages/components/navbar.html",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
+}

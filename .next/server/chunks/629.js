@@ -29,11 +29,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(167);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _blog_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(604);
-/* harmony import */ var _blog_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_blog_module_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_3__);
-
+/* harmony import */ var _blog_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(604);
+/* harmony import */ var _blog_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_blog_module_css__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -51,13 +48,13 @@ function Blog() {
     if (anime) {
         return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_blog_module_css__WEBPACK_IMPORTED_MODULE_4___default().BlogBody),
+                className: (_blog_module_css__WEBPACK_IMPORTED_MODULE_3___default().BlogBody),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                         children: "Anime Blog"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_blog_module_css__WEBPACK_IMPORTED_MODULE_4___default().BlogBodyContent),
+                        className: (_blog_module_css__WEBPACK_IMPORTED_MODULE_3___default().BlogBodyContent),
                         children: anime.map((elem)=>{
                             return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 children: [
@@ -70,7 +67,7 @@ function Blog() {
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                         href: `../components/${elem.id}`,
-                                        className: (_blog_module_css__WEBPACK_IMPORTED_MODULE_4___default().Details1),
+                                        className: (_blog_module_css__WEBPACK_IMPORTED_MODULE_3___default().Details1),
                                         children: "Details"
                                     })
                                 ]

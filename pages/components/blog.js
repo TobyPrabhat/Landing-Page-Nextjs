@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import Axios from "axios";
 import styles from "./blog.module.css"
 export default function Blog(){
   const url = "https://ghibliapi.herokuapp.com/films";
   const [anime, setAnime] = useState(null);
 
   useEffect(()=>{
-    axios.get(url)
+    Axios.get(url)
     .then(response => {
       setAnime(response.data)
     })
